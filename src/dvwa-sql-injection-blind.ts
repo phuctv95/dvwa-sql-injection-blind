@@ -2,7 +2,7 @@
  * Strategy:
  * - Use a lib to do HTTP requests.
  * - First, find the length of the version using Binary search algorithm.
- * - For each character, guess from 'a-zA-Z.\-' using Binary search algorithm.
+ * - For each character, guess from ASCII characters using Binary search algorithm.
  */
 
 import axios, { AxiosError, AxiosResponse } from 'axios';
